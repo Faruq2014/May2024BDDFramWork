@@ -1,0 +1,19 @@
+
+
+Step-one
+   build feature 
+   build scenario
+   develop appropriate tag- such as smoke, login
+   run as a feature file
+   copy all the methods 
+ 
+ Step - two
+     build step defination class
+     paste all the methods-->sanatize the class
+     develop is-a-relationship with BaseStep
+     develop has-a-relationship with appropriate Pages
+
+ Step - three
+       build a runner class
+       put appropriat tag that you want to run
+       

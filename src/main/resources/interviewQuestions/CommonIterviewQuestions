@@ -1,0 +1,38 @@
+how do you implements inheritance in your fame work?
+  i have a base test
+     where i write all the common codes such as
+        open application
+        close application
+        take screen shot
+ all the other child class such as
+   login test
+   registration test 
+ extends the Base test
+ this is how I implements inheritance in my Framework
+ 
+how do you implements page object model in your fame work?
+ in my framework i have pages package such as 
+      com.facebookPages
+ and I have a Test package such as 
+     com.facebookTests
+ all the classes in the com.facebookPages are written in
+     a. page model object style
+     b. find by annotation
+     c. initElements class
+ all the classes in the com.facebookTests are written in
+     JUnit style or TestNG style
+ this is how I implement Page Object Model
+ 
+ how do you write or read utilities in your framework ?
+   in my utilities class i used
+     a. Java Properties class to load, read and write 
+     b. Java FileInputStream for handling file systems such as
+        create folder
+        find the folder path
+   
+   
+   
+   
+   
+   
+   
