@@ -9,5 +9,4 @@ Feature: Login feature
     Then I logged in on Facebook
     But I can not validate Facebook title
     And I close the facebook
- # Scenario: I want to develop a login feature so that
-  #  invalid user cannot log in
+
