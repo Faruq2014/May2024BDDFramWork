@@ -1,5 +1,6 @@
 Feature: Login with scenario outline
 
+  @Regression
   Scenario Outline: As a tester I want build a login test with
     multiple data so that I can test multiple scenarios
 
@@ -13,5 +14,3 @@ Feature: Login with scenario outline
       | "https://www.facebook.com/" | "hg@bmail.com"    | "success"   |
       | "https://www.facebook.com/" | "gfhgj@bmail.com" | "success1"  |
       | "https://www.facebook.com/" | "bnj@bmail.com"   | "success23" |
-      
-      
